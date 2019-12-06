@@ -9,7 +9,8 @@ namespace CalculosPrestamos.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            ContextKey = "CalculosPrestamos.DAL.CalculosPrestamosContext";
         }
 
         protected override void Seed(CalculosPrestamos.DAL.CalculosPrestamosContext context)
